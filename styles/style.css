@@ -1,3 +1,6 @@
+/* "Work Sans' font imported from fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +15,30 @@ ul,
 li {
   list-style: none;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  font-size: ;
+}
+/* Color variable */
+:root {
+  --heading: #131313;
+  --text: #727272;
+  --bg: #ff900e;
+  --white: #fff;
+}
+
+/* Shared CSS */
+p {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 2.8125rem;
+  font-weight: 700;
+  color: var(--heading);
 }
