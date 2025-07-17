@@ -18,7 +18,7 @@ li {
 body {
   overflow-x: hidden;
   font-family: "Work Sans", sans-serif;
-  color: var(--white)
+  color: var(--white);
 }
 p {
   font-size: ;
@@ -32,7 +32,7 @@ p {
 }
 
 /* Shared CSS */
-.container{
+.container {
   max-width: 1440px;
   margin: 0 auto;
   width: 75%;
@@ -48,3 +48,35 @@ h3 {
   font-weight: 700;
   color: var(--heading);
 }
+/* Shared CDD end */
+
+/* Header section styles start from here */
+header {
+  padding: 45px 0;
+  background: rgba(255, 144, 14, 0.1);
+}
+/* Navbar start  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-logo {
+  color: var(--heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+nav .nav-links {
+  display: flex;
+  gap: 30px;
+}
+nav .nav-links li a {
+  font-size: 1.125rem;
+  color: #424242;
+  font-weight: 500;
+  line-height: 1.625rem;
+  text-transform: capitalize;
+}
+/* Navbar end  */
+
+/* Header section styles end here */

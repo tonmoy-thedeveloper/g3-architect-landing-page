@@ -1,0 +1,14 @@
+/* Mobile view responsive start from here */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 30px;
+    }
+    nav, .nav-links{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .nav-links {
+        gap: 20px;
+    }
+}
+/* Mobile view responsive end here */
