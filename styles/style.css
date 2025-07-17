@@ -18,6 +18,7 @@ li {
 body {
   overflow-x: hidden;
   font-family: "Work Sans", sans-serif;
+  color: var(--white)
 }
 p {
   font-size: ;
@@ -31,6 +32,11 @@ p {
 }
 
 /* Shared CSS */
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 75%;
+}
 p {
   color: var(--text);
   font-size: 1rem;
