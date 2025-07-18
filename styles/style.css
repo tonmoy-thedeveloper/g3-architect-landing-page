@@ -117,3 +117,32 @@ nav .nav-links li a {
 /* Hero area styles end here */
 
 /* Header section styles end here */
+
+
+/* About section styles start here */
+#about {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin: 60px auto;
+}
+#about .about-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.about-con h3{
+  width: 468px;
+}
+.about-con h3 span:first-child{
+  font-weight: 500;
+  color: var(--text);
+}
+.about-con h3 span:last-child{
+  color: var(--bg);
+}
+.about-con p{
+  width: 537px;
+  margin: 24px 0;
+}
+/* About section styles end here */

@@ -24,5 +24,19 @@
     #hero-area p{
         width: 100%;
     }
+
+
+    #about{
+        flex-direction: column;
+        margin: 30px auto;
+        gap: 45px;
+    }
+    #about .about-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    #about .about-con h3, #about .about-con p{
+        width: 100%;
+    }
 }
 /* Mobile view responsive end here */
