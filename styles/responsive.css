@@ -1,5 +1,8 @@
 /* Mobile view responsive start from here */
 @media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
     header{
         padding: 30px;
     }
@@ -9,6 +12,17 @@
     }
     nav .nav-links {
         gap: 20px;
+    }
+
+    #hero-area{
+        margin-top: 50px;
+    }
+    #hero-area h1{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    #hero-area p{
+        width: 100%;
     }
 }
 /* Mobile view responsive end here */

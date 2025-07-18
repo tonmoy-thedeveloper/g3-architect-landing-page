@@ -92,6 +92,7 @@ nav .nav-links li a {
 /* Hero area styles start here */
 #hero-area {
   text-align: center;
+  margin-top: 100px;
 }
 #hero-area h1 {
   width: 862px;
@@ -107,6 +108,11 @@ nav .nav-links li a {
 }
 #hero-area .btn{
   margin-bottom: 50px;
+}
+#hero-area img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 /* Hero area styles end here */
 
