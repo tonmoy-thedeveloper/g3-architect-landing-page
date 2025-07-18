@@ -18,7 +18,7 @@ li {
 body {
   overflow-x: hidden;
   font-family: "Work Sans", sans-serif;
-  color: var(--white);
+  background: var(--white);
 }
 p {
   font-size: ;
@@ -47,6 +47,16 @@ h3 {
   font-size: 2.8125rem;
   font-weight: 700;
   color: var(--heading);
+}
+.btn {
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 20px 24px;
+  border: none;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 /* Shared CDD end */
 
@@ -78,5 +88,26 @@ nav .nav-links li a {
   text-transform: capitalize;
 }
 /* Navbar end  */
+
+/* Hero area styles start here */
+#hero-area {
+  text-align: center;
+}
+#hero-area h1 {
+  width: 862px;
+  margin-inline: auto;
+  color: var(--heading);
+  font-size: 4rem;
+  font-weight: 700;
+}
+#hero-area p{
+  width: 868px;
+  /* margin-inline: auto; */
+  margin: 32px auto;
+}
+#hero-area .btn{
+  margin-bottom: 50px;
+}
+/* Hero area styles end here */
 
 /* Header section styles end here */
